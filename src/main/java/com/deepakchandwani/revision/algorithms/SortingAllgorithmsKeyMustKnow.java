@@ -9,19 +9,29 @@ public class SortingAllgorithmsKeyMustKnow {
 		int[] arr = { 14, 12, 1, 4, 31, 2, 7, 11, 24 };
 		
 		// this is a quick work so un comment and test single class is helpfull
-		// self notes so works.
+		// self notes so commenting works.
 		
-		// new SortingDemo().insertionSort(arr);
-		// new SortingDemo().selectionSort(arr);
-		// new SortingDemo().bubbleSort(arr);
-		// new SortingDemo().recursiveBubbleSort(arr, arr.length);
-		// new SortingDemo().mergeSort(arr ,0, arr.length-1);
+		// Insertion Sort
+		 //new SortingAllgorithmsKeyMustKnow().insertionSort(arr);
+		
+		// Selection Sort
+		//  new SortingAllgorithmsKeyMustKnow().selectionSort(arr);
+		
+		// Bubble Sort
+		// new SortingAllgorithmsKeyMustKnow().bubbleSort(arr);
+		
+		// Recursive Bubble Sort
+		// new SortingAllgorithmsKeyMustKnow().recursiveBubbleSort(arr, arr.length);
+		
+		//Merge Sort
+		//  new SortingAllgorithmsKeyMustKnow().mergeSort(arr ,0, arr.length-1);
+		
+		// Shell Short it is insertion short in increments
 		// shellSort(arr);
+		
 		new SortingAllgorithmsKeyMustKnow().quickSort(arr, 0, arr.length-1);
 
 		new SortingAllgorithmsKeyMustKnow().print(arr);
-
-		// deepak comment
 
 	}
 
