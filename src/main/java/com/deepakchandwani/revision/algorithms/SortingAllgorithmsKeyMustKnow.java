@@ -21,7 +21,7 @@ public class SortingAllgorithmsKeyMustKnow {
 
 		new SortingAllgorithmsKeyMustKnow().print(arr);
 
-		// shri comment
+		// deepak comment
 
 	}
 
